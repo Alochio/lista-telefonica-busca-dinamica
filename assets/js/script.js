@@ -2,6 +2,25 @@ document.addEventListener('DOMContentLoaded', function () {
     const searchInput = document.getElementById('search');
     const tableBody = document.querySelector('#phonebook tbody');
 
+    function normalizeText(text) {
+        return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    }
+
+    function renderTable(data) {
+        tableBody.innerHTML = '';
+        data.forEach(entry => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${entry.gerencia}</td>
+                <td>${entry.area}</td>
+                <td>${entry.nome}</td>
+                <td>${entry.telefone}</td>
+                <td>${entry.ramal}</td>
+            `;
+            tableBody.appendChild(row);
+        });
+    }
+
     fetch('/assets/xml/data.xml')
         .then(response => response.text())
         .then(data => {
@@ -33,36 +52,14 @@ document.addEventListener('DOMContentLoaded', function () {
             renderTable(phonebook);
 
             searchInput.addEventListener('input', function () {
-                const searchTerm = searchInput.value.toLowerCase();
-                const filteredData = phonebook.filter(entry => 
-                    entry.gerencia.toLowerCase() === searchTerm ||
-                    entry.area.toLowerCase() === searchTerm ||
-                    entry.nome.toLowerCase() === searchTerm
-                ).concat(phonebook.filter(entry =>
-                    entry.gerencia.toLowerCase().includes(searchTerm) ||
-                    entry.area.toLowerCase().includes(searchTerm) ||
-                    entry.nome.toLowerCase().includes(searchTerm)
-                ).filter(entry => 
-                    !(entry.gerencia.toLowerCase() === searchTerm ||
-                    entry.area.toLowerCase() === searchTerm ||
-                    entry.nome.toLowerCase() === searchTerm)
-                ));
+                const searchTerm = normalizeText(searchInput.value);
+                const filteredData = phonebook.filter(entry => {
+                    return normalizeText(entry.gerencia).includes(searchTerm) ||
+                           normalizeText(entry.area).includes(searchTerm) ||
+                           normalizeText(entry.nome).includes(searchTerm);
+                });
                 renderTable(filteredData);
             });
-        });
-
-    function renderTable(data) {
-        tableBody.innerHTML = '';
-        data.forEach(entry => {
-            const row = document.createElement('tr');
-            row.innerHTML = `
-                <td>${entry.gerencia}</td>
-                <td>${entry.area}</td>
-                <td>${entry.nome}</td>
-                <td>${entry.telefone}</td>
-                <td>${entry.ramal}</td>
-            `;
-            tableBody.appendChild(row);
-        });
-    }
+        })
+        .catch(error => console.error('Erro ao carregar o arquivo XML:', error));
 });
