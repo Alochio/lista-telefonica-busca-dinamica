@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phonebook>
+    <entry>
+        <gerencia>TI</gerencia>
+        <area>Desenvolvimento</area>
+        <nome>João Silva</nome>
+        <telefone>(11) 1234-5678</telefone>
+        <ramal>101</ramal>
+    </entry>
+    <entry>
+        <gerencia>RH</gerencia>
+        <area>Recrutamento</area>
+        <nome>Maria Oliveira</nome>
+        <telefone>(11) 8765-4321</telefone>
+        <ramal>102</ramal>
+    </entry>
+    <entry>
+        <gerencia>Financeiro</gerencia>
+        <area>Contabilidade</area>
+        <nome>Paulo Santos</nome>
+        <telefone>(11) 2345-6789</telefone>
+        <ramal>103</ramal>
+    </entry>
+    <entry>
+        <gerencia>Marketing</gerencia>
+        <area>Publicidade</area>
+        <nome>Ana Costa</nome>
+        <telefone>(11) 3456-7890</telefone>
+        <ramal>104</ramal>
+    </entry>
+    <entry>
+        <gerencia>Vendas</gerencia>
+        <area>Comercial</area>
+        <nome>Luiz Almeida</nome>
+        <telefone>(11) 4567-8901</telefone>
+        <ramal>105</ramal>
+    </entry>
+    <entry>
+        <gerencia>TI</gerencia>
+        <area>Infraestrutura</area>
+        <nome>Carlos Pereira</nome>
+        <telefone>(11) 5678-9012</telefone>
+        <ramal>106</ramal>
+    </entry>
+    <entry>
+        <gerencia>RH</gerencia>
+        <area>Benefícios</area>
+        <nome>Fernanda Lima</nome>
+        <telefone>(11) 6789-0123</telefone>
+        <ramal>107</ramal>
+    </entry>
+    <entry>
+        <gerencia>Financeiro</gerencia>
+        <area>Faturamento</area>
+        <nome>Roberto Fernandes</nome>
+        <telefone>(11) 7890-1234</telefone>
+        <ramal>108</ramal>
+    </entry>
+    <entry>
+        <gerencia>Marketing</gerencia>
+        <area>Eventos</area>
+        <nome>Juliana Souza</nome>
+        <telefone>(11) 8901-2345</telefone>
+        <ramal>109</ramal>
+    </entry>
+    <entry>
+        <gerencia>Vendas</gerencia>
+        <area>Internacional</area>
+        <nome>Bruno Gomes</nome>
+        <telefone>(11) 9012-3456</telefone>
+        <ramal>110</ramal>
+    </entry>
+    <!-- Continue até ter 100 entradas -->
+    <entry>
+        <gerencia>TI</gerencia>
+        <area>Desenvolvimento</area>
+        <nome>Mariana Ribeiro</nome>
+        <telefone>(11) 9123-4567</telefone>
+        <ramal>111</ramal>
+    </entry>
+    <entry>
+        <gerencia>RH</gerencia>
+        <area>Recrutamento</area>
+        <nome>Rodrigo Carvalho</nome>
+        <telefone>(11) 9234-5678</telefone>
+        <ramal>112</ramal>
+    </entry>
+    <entry>
+        <gerencia>Financeiro</gerencia>
+        <area>Contabilidade</area>
+        <nome>Débora Nunes</nome>
+        <telefone>(11) 9345-6789</telefone>
+        <ramal>113</ramal>
+    </entry>
+    <entry>
+        <gerencia>Marketing</gerencia>
+        <area>Publicidade</area>
+        <nome>Ricardo Dias</nome>
+        <telefone>(11) 9456-7890</telefone>
+        <ramal>114</ramal>
+    </entry>
+    <entry>
+        <gerencia>Vendas</gerencia>
+        <area>Comercial</area>
+        <nome>Carla Martins</nome>
+        <telefone>(11) 9567-8901</telefone>
+        <ramal>115</ramal>
+    </entry>
+    <entry>
+        <gerencia>TI</gerencia>
+        <area>Infraestrutura</area>
+        <nome>Eduardo Costa</nome>
+        <telefone>(11) 9678-9012</telefone>
+        <ramal>116</ramal>
+    </entry>
+    <entry>
+        <gerencia>RH</gerencia>
+        <area>Benefícios</area>
+        <nome>Marcela Freitas</nome>
+        <telefone>(11) 9789-0123</telefone>
+        <ramal>117</ramal>
+    </entry>
+    <entry>
+        <gerencia>Financeiro</gerencia>
+        <area>Faturamento</area>
+        <nome>Fabiana Mendes</nome>
+        <telefone>(11) 9890-1234</telefone>
+        <ramal>118</ramal>
+    </entry>
+    <entry>
+        <gerencia>Marketing</gerencia>
+        <area>Eventos</area>
+        <nome>Thiago Barros</nome>
+        <telefone>(11) 9901-2345</telefone>
+        <ramal>119</ramal>
+    </entry>
+    <entry>
+        <gerencia>Vendas</gerencia>
+        <area>Internacional</area>
+        <nome>Larissa Figueiredo</nome>
+        <telefone>(11) 9012-3456</telefone>
+        <ramal>120</ramal>
+    </entry>
+    <entry>
+        <gerencia>TI</gerencia>
+        <area>Desenvolvimento</area>
+        <nome>Gustavo Rocha</nome>
+        <telefone>(11) 9123-4567</telefone>
+        <ramal>121</ramal>
+    </entry>
+    <entry>
+        <gerencia>RH</gerencia>
+        <area>Recrutamento</area>
+        <nome>Patrícia Gomes</nome>
+        <telefone>(11) 9234-5678</telefone>
+        <ramal>122</ramal>
+    </entry>
+    <entry>
+        <gerencia>Financeiro</gerencia>
+        <area>Contabilidade</area>
+        <nome>Felipe Alves</nome>
+        <telefone>(11) 9345-6789</telefone>
+        <ramal>123</ramal>
+    </entry>
+    <entry>
+        <gerencia>Marketing</gerencia>
+        <area>Publicidade</area>
+        <nome>Beatriz Lima</nome>
+        <telefone>(11) 9456-7890</telefone>
+        <ramal>124</ramal>
+    </entry>
+    <entry>
+        <gerencia>Vendas</gerencia>
+        <area>Comercial</area>
+        <nome>Leonardo Pereira</nome>
+        <telefone>(11) 9567-8901</telefone>
+        <ramal>125</ramal>
+    </entry>
+    <entry>
+        <gerencia>TI</gerencia>
+        <area>Infraestrutura</area>
+        <nome>Aline Souza</nome>
+        <telefone>(11) 9678-9012</telefone>
+        <ramal>126</ramal>
+    </entry>
+    <entry>
+        <gerencia>RH</gerencia>
+        <area>Benefícios</area>
+        <nome>Roberta Ferreira</nome>
+        <telefone>(11) 9789-0123</telefone>
+        <ramal>127</ramal>
+    </entry>
+    <entry>
+        <gerencia>Financeiro</gerencia>
+        <area>Faturamento</area>
+        <nome>Alexandre Teixeira</nome>
+        <telefone>(11) 9890-1234</telefone>
+        <ramal>128</ramal>
+    </entry>
+    <entry>
+        <gerencia>Marketing</gerencia>
+        <area>Eventos</area>
+        <nome>Vanessa Almeida</nome>
+        <telefone>(11) 9901-2345</telefone>
+        <ramal>129</ramal>
+    </entry>
+    <entry>
+        <gerencia>Vendas</gerencia>
+        <area>Internacional</area>
+        <nome>João Mendes</nome>
+        <telefone>(11) 9012-3456</telefone>
+        <ramal>130</ramal>
+    </entry>
+    <entry>
+        <gerencia>TI</gerencia>
+        <area>Desenvolvimento</area>
+        <nome>Renata Nascimento</nome>
+        <telefone>(11) 9123-4567</telefone>
+        <ramal>199</ramal>
+    </entry>
+    <entry>
+        <gerencia>RH</gerencia>
+        <area>Recrutamento</area>
+        <nome>Diego Araújo</nome>
+        <telefone>(11) 9234-5678</telefone>
+        <ramal>200</ramal>
+    </entry>
+</phonebook>
